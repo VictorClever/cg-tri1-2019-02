@@ -38,4 +38,8 @@ public class LevelManager : MonoBehaviour
     public int Coins() {
         return sceneData.coinCount;
     }
+    public void SetTapeSpeed(float value)
+    {
+        TapeSpeed = new Vector3(value, TapeSpeed.y, TapeSpeed.z);
+    }
 }
