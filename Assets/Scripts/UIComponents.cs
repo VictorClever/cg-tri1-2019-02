@@ -24,9 +24,21 @@ public class UIComponents
 
      
          [Header("Other")]
-        public GameObject LCPanel;
+        public GameObject panel;
+    }
+
+    [Serializable]
+    public class GameOverPanel{
+
+        [Header("Text")]
+        public Text txtScore;
+
+     
+         [Header("Other")]
+        public GameObject panel;
     }
     
     public Hud hud;
     public LevelCompletePanel levelCompletePanel;
+    public GameOverPanel gameOverPanel;
 }
