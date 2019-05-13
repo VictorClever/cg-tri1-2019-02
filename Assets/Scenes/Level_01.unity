@@ -5524,6 +5524,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinParticles: {fileID: 8145691316735734028, guid: 63dda35449ecf7c4a86ccf160ef376d8,
     type: 3}
+  dieParticles: {fileID: 4258651883574281853, guid: 1df9b549bd72f21418fb26771dd9d3e5,
+    type: 3}
 --- !u!114 &1034486718
 MonoBehaviour:
   m_ObjectHideFlags: 0
