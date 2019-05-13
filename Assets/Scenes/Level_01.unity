@@ -564,7 +564,6 @@ GameObject:
   - component: {fileID: 297699583}
   - component: {fileID: 297699582}
   - component: {fileID: 297699581}
-  - component: {fileID: 297699584}
   - component: {fileID: 297699585}
   m_Layer: 8
   m_Name: FatBird
@@ -703,19 +702,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &297699584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297699577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd7186836b322144cabeaf227a56be77, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpeedFactor: 10
 --- !u!114 &297699585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -728,8 +714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16c2bdbedc2f2cd4b9ec72348e2fb5b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particles: {fileID: 8145691316735734028, guid: 63dda35449ecf7c4a86ccf160ef376d8,
-    type: 3}
+  lerpRate: 4
 --- !u!1 &321509190
 GameObject:
   m_ObjectHideFlags: 0
@@ -1921,7 +1906,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1206644831}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.32, y: -6.65, z: 0}
+  m_LocalPosition: {x: 3.32, y: 0.66, z: 0}
   m_LocalScale: {x: 0.402, y: 0.402, z: 0.402}
   m_Children: []
   m_Father: {fileID: 1677807683}
@@ -2091,6 +2076,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GhostMoving
+      objectReference: {fileID: 0}
+    - target: {fileID: 6618354594446368417, guid: befdd356281ba3e49a357c88d34f0140,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6618354594446368447, guid: befdd356281ba3e49a357c88d34f0140,
         type: 3}
