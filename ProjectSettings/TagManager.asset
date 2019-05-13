@@ -8,6 +8,7 @@ TagManager:
   - Ghost
   - Projectiles
   - Forbidden
+  - Gift
   layers:
   - Default
   - TransparentFX
