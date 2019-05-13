@@ -565,6 +565,7 @@ GameObject:
   - component: {fileID: 297699582}
   - component: {fileID: 297699581}
   - component: {fileID: 297699584}
+  - component: {fileID: 297699585}
   m_Layer: 8
   m_Name: FatBird
   m_TagString: Player
@@ -715,6 +716,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedFactor: 10
+--- !u!114 &297699585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297699577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16c2bdbedc2f2cd4b9ec72348e2fb5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particles: {fileID: 8145691316735734028, guid: 63dda35449ecf7c4a86ccf160ef376d8,
+    type: 3}
 --- !u!1 &321509190
 GameObject:
   m_ObjectHideFlags: 0
